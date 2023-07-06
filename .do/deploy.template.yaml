@@ -1,0 +1,13 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: master
+    deploy_on_push: true
+    repo: filipesr/digital-ocean-servless-function-ping
+  name: pingZap
+  routes:
+  - path: /
+  source_dir: /
+name: pingZap

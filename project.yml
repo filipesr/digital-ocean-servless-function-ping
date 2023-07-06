@@ -1,0 +1,5 @@
+packages:
+  - name: pingZap
+    actions:
+      - name: pingZap
+        runtime: 'nodejs:default'

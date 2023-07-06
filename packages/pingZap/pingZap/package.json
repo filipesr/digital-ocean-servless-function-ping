@@ -1,0 +1,14 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "pingZap",
+  "main": "pingZap.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --forceExit --verbose false"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
